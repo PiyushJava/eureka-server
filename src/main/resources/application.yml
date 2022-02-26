@@ -13,5 +13,6 @@ logging:
   level:
     root: info
     '[org.springframework]': debug
-  
-    
+spring:
+  application:
+    name: eureka-server
