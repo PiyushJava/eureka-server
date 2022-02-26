@@ -4,3 +4,14 @@ eureka:
     registerWithEureka: false
 server:
   port: 8761
+logging:
+  file:
+    name: eureka-server-1.log
+  charset:
+    console: UTF-8
+    file: UTF-8
+  level:
+    root: info
+    '[org.springframework]': debug
+  
+    
