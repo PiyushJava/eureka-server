@@ -4,6 +4,8 @@ eureka:
     registerWithEureka: false
 server:
   port: 8761
+  http2:
+    enabled: true
 logging:
   file:
     name: eureka-server-1.log
